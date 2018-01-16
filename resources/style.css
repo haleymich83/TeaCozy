@@ -23,6 +23,12 @@ a{
   color: seashell;
 }
 
+h2, h3, h4{
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
 .logo img{
   height: 50px;
   margin-left: 10px;
@@ -58,8 +64,36 @@ nav{
   padding-top: 70px;
 }
 
-.two{
+.mission{
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+}
 
+.two{
+  display: flex;
+  width: 1000px;
+}
+
+.Berry{
+  display: flex;
+  flex-direction: column;
+}
+.Rum{
+  display: flex;
+  flex-direction: column;
+}
+.Donuts{
+  display: flex;
+  flex-direction: column;
+}
+.Myrtle{
+  display: flex;
+  flex-direction: column;
+}
+.Bizarre{
+  display: flex;
+  flex-direction: column;
 }
 
 .three{
