@@ -8,6 +8,15 @@ body{
   margin: 0;
 }
 
+.two span{
+  color: seashell;
+  font-family: Helvetica;
+  opacity: 0.9;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 10px;
+}
+
 header{
   display: flex;
   position: fixed;
@@ -112,5 +121,9 @@ nav{
 }
 
 .three{
-
+  background-image: url("./images/img-locations-background.jpg");
+  display: flex;
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
 }
