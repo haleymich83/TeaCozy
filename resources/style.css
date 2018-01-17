@@ -123,7 +123,45 @@ nav{
 .three{
   background-image: url("./images/img-locations-background.jpg");
   display: flex;
-  height: 500px;
+  height: 570px;
   width: 1200px;
   margin: 0 auto;
+}
+
+.locations{
+  display: flex;
+  flex-direction: column;
+}
+
+.locations h2{
+  margin-top: 70px;
+}
+
+.another{
+  display: flex;
+  height: 500px;
+  width: 1200px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.local{
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  opacity: 1;
+}
+
+.dtown, .ebay{
+  margin-right: 40px;
+}
+
+.dtown, .ebay, .odale {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footer{
+  height: 200px;
 }
